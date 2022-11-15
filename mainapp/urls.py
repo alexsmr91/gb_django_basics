@@ -13,4 +13,3 @@ urlpatterns = [
     path("doc_site/", views.DocSitePageView.as_view()),
     path("login/", views.LoginPageView.as_view()),
 ]
-
