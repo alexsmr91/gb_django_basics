@@ -9,6 +9,11 @@ class NewsAdmin(admin.ModelAdmin):
     search_fields = ["title", "preambule", "body"]
 
 
+@admin.register(mainapp_models.Courses)
+class CoursesAdmin(admin.ModelAdmin):
+    pass
+
+
 @admin.register(mainapp_models.Lesson)
 class LessonAdmin(admin.ModelAdmin):
     list_display = ["id", "get_course_name", "num", "title", "deleted"]
