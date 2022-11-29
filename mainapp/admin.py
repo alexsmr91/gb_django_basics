@@ -13,7 +13,7 @@ class NewsAdmin(admin.ModelAdmin):
 class LessonAdmin(admin.ModelAdmin):
     list_display = ["id", "get_course_name", "num", "title", "deleted"]
     ordering = ["-course__name", "-num"]
-    list_per_page = 5
+    list_per_page = 10
     list_filter = ["course", "created", "deleted"]
     actions = ["mark_deleted"]
 
