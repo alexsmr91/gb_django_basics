@@ -194,6 +194,12 @@ LOGGING = {
 }
 
 
+CELERY_BROKER_URL = "redis://localhost:6379"
+CELERY_RESULT_BACKEND = "redis://localhost:6379"
+EMAIL_BACKEND = "django.core.mail.backends.filebased.EmailBackend"
+EMAIL_FILE_PATH = "var/email-messages/"
+
+
 # In the end of file
 CACHES = {
     "default": {
