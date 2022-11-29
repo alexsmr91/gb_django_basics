@@ -121,7 +121,8 @@ AUTHENTICATION_BACKENDS = (
 )
 
 SOCIAL_AUTH_GITHUB_KEY = "11220db2080dc95eea4a"
-SOCIAL_AUTH_GITHUB_SECRET = "0dfce5a0117d2068da33fc91d00bea07891e444b"
+SOCIAL_AUTH_GITHUB_SECRET = "4caf86fad69610e9e47a5901b51261fbde935c41"
+
 
 # Internationalization
 # https://docs.djangoproject.com/en/3.2/topics/i18n/
